@@ -1,0 +1,52 @@
+<body>
+  <h1>Scrum Board</h1>
+
+  <section>
+    <h2>Add Member</h2>
+    <input id="member-name" placeholder="Name" />
+    <select id="member-category">
+      <option>UX</option>
+      <option>Frontend</option>
+      <option>Backend</option>
+    </select>
+    <button id="add-member">Add Member</button>
+  </section>
+
+  <section>
+    <h2>Members</h2>
+    <div id="member-list"></div>
+  </section>
+
+  <section>
+    <h2>Add Task</h2>
+    <input id="task-title" placeholder="Title" />
+    <textarea id="task-desc" placeholder="Description"></textarea>
+    <select id="task-category">
+      <option>UX</option>
+      <option>Frontend</option>
+      <option>Backend</option>
+    </select>
+    <button id="add-task">Add Task</button>
+  </section>
+
+  <hr />
+
+  <div id="board">
+    <div>
+      <h2>New</h2>
+      <div id="new-column"></div>
+    </div>
+
+    <div>
+      <h2>Doing</h2>
+      <div id="doing-column"></div>
+    </div>
+
+    <div>
+      <h2>Done</h2>
+      <div id="done-column"></div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>

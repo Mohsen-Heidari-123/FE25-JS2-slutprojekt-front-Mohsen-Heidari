@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+#board {
+  display: flex;
+  gap: 20px;
+}
+
+#board > div {
+  width: 30%;
+  background: #f2f2f2;
+  padding: 10px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.member-card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+.member-card button {
+  margin-left: auto;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
